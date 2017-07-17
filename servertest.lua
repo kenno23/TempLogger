@@ -83,7 +83,7 @@ function initWIFI()
 
     wifi.setmode(wifi.STATION)
 
-    wifi.sta.config("passwordistaco","robinson")
+    wifi.sta.config("","")
 	cfg = {
     ip="192.168.1.112",
     netmask="255.255.255.0",
